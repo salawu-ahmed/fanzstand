@@ -19,7 +19,7 @@ const Navbar = () => {
                     </span>
                 </div>
             </div>
-            <ul className='w-full flex gap-8 justify-center items-center py-2 bg-black'>
+            <ul className='sm:w-full flex gap-8 justify-start lg:justify-center items-center pt-2 pb-3 px-4 w-4/5 scroll-smooth mx-auto bg-black overflow-x-scroll'>
                 <li className='px-6 py-1 rounded-full bg-gray-500 text-yellow-500'><Link to={"#"}>Home</Link></li>
                 <li className='px-6 py-1 rounded-full bg-gray-500 text-yellow-500'><Link to={"#"}>Fixtures</Link></li>
                 <li className='px-6 py-1 rounded-full bg-gray-500 text-yellow-500'><Link to={"#"}>Results</Link></li>
